@@ -1,0 +1,132 @@
+body {
+	background-color: #eee;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #555;
+	margin:0;
+	padding:0;
+}
+
+body > p, footer > p {
+	text-align:center;
+}
+
+footer > p {
+	font-size: 12px;
+}
+
+h1 {
+	text-align: center;
+	color: #555;
+	font-weight: normal;
+}
+
+h1 span {
+	font-size: .8em;
+	color: #bbb;
+	font-weight: normal;
+}
+
+.badge-0, .badge-1, .badge-2 {
+	height: 100%;
+	width: 30px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.badge-0 {
+	background-color: #D9A441;
+}
+
+.badge-1 {
+	background-color: #CCC2C2;
+}
+
+.badge-2 {
+	background-color: #965A38;
+}
+
+#board-desc {
+	width: 380px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.record .avatar {
+	position: absolute;
+	top:0;
+	left: -60px;
+}
+
+.record {
+	height: 40px;
+	width: 380px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	position: relative;
+	padding: 10px;
+}
+
+.record+.record {
+	border-top: 0;
+}
+
+.new-record {
+	background-color: #fcfcfc;
+	width: 380px;
+	margin: 15px auto;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+.who {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.when {
+	font-size: 13px;
+	padding-top: 5px;
+	color: #777;
+}
+
+.score {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 15px;
+	text-align: right;
+}
+
+.record.badged .score {
+	right:40px;
+}
+
+#team-boards {
+	list-style-type: none;
+	padding: 10px;
+	padding-right: 30px;
+	margin:0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 15px;
+	color: #777;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+#team-boards li {
+	line-height: 1.5em
+}
+
+#team-boards .team-name {
+	font-weight: bold;
+}
+
+#team-boards .current {
+	background-color: #ddd;
+}
